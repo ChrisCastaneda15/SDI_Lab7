@@ -33,6 +33,17 @@
     console.log("This " + car.color + " " + car.make + " has " + car.horsePower + "HP and boasts a top speed of " + car.topSpeed + " MPH.");    
     console.log("Currently the car is at " + car.currentSpeed + "MPH, but we can easily change that stepping on the gas pedal.\nLet's start her up.");
     
+    // acceleration
+    for (var i = 0; i < 3; i++) 
+    {
+      car.accelerate();
+      console.log(car.currentSpeed + "MPH");
+    };
+   
+   console.log("We are currently sitting at " + car.currentSpeed + "MPH. Let's slow down a bit.");
+   
+
+    
     
 
 
