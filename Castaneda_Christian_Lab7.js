@@ -42,8 +42,16 @@
    
    console.log("We are currently sitting at " + car.currentSpeed + "MPH. Let's slow down a bit.");
    
-
+// deceleration
+    for (var i = 0; i < 3; i++) 
+    {
+      car.decelerate();
+      console.log(car.currentSpeed + "MPH");
+    };
     
+    console.log("We are now cruising at " + car.currentSpeed + "MPH. Let's bring it to a complete stop now.");
+    
+
     
 
 
